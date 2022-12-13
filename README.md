@@ -1,8 +1,8 @@
-# Android Project 5 - *BitFit*
+# Android Project 6 - *Name of App Here*
 
-Submitted by: **Ifé-Michaela Spencer**
+Submitted by: **Your Name Here**
 
-**BitFit** is a health metrics app that allows users to track food intake
+**Name of your app** is a health metrics app that allows users to track water gallons
 
 Time spent: **X** hours spent in total
 
@@ -10,23 +10,31 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] **At least one health metric is tracked (based on user input)**
-  - Chosen metric(s): `track food intake`
-- [ ] **There is a "create entry" UI that prompts users to make their daily entry**
-- [ ] **New entries are saved in a database and then updated in the RecyclerView**
-- [ ] **On application restart, previously entered entries are preserved (i.e., are *persistent*)**
- 
+- [ ] **Use at least 2 Fragments**
+- [ ] **Create a new dashboard fragment where users can see a summary of their entered data**
+- [ ] **Use one of the Navigation UI Views (BottomNavigation, Drawer Layout, Top Bar) to move between the fragments**
+
 The following **optional** features are implemented:
 
-- [ ] **Create a UI for tracking averages and trends in metrics**
-- [ ] **Improve and customize the user interface through styling and coloring**
-- [ ] **Implement orientation responsivity**
-- [ ] **Add a daily photo feature**
+- [ ] **Add a more advanced UI (e.g: Graphing) for tracking trends in metrics**
+- [ ] **Implement daily notifications to prompt users to fill in their data**
 
 The following **additional** features are implemented:
 
 - [ ] List anything else that you can get done to improve the app functionality!
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
