@@ -1,1 +1,48 @@
-
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EntryActivity">
+  
+  <Button 
+        android:id="@+id/btnSubmitNewLiquid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="wrap_content"
+        android:text="Button" 
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constaintStart_toStartOf="parent"
+        app:layout_contratintTop_toBottomOf ="@id/etAmountInput"
+        app:layout_constraintVertical_bias="0.657"/>
+   <EditText 
+        android:id="@+id/etNameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="wrap_content"
+        android:ems="10"
+        android.hint ="Liquid Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constaintStart_toStartOf="parent"
+        app:layout_contratintTop_toBottomOf ="parent"
+        tools:ignore="TouchTargetSizeCheck"/>  
+  
+  <EditText 
+        android:id="@+id/etAmountInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:ems="10"
+        android.hint ="Number of Bottles"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constaintHorizontal_bias="0.502"
+        app:layout_contratintTop_toBottomOf ="@id/etNameInput"
+        tools:ignore="TouchTargetSizeCheck"/>  
+  </androidx.constraintlayout.widget.ConstraintLayout>
+  
+  
