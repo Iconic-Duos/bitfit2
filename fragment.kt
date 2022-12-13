@@ -13,13 +13,23 @@ import android.view.ViewGroup;
  * Use the {@link BlankFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class BlankFragment extends Fragment {
-
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
-
+ class BlankFragment extends Fragment {
+    override fun onCreate(savedInstanceState: Bundle?){
+        super.onCreate(savedInstanceState)
+        arguments?.let{it Bundle
+            parama1 = it.getString(ARG_PARAMI)
+            parama2 = it.getString(ARG_PARAMI)
+        }
+    }
+    override fun onCreateView(
+        inflater: LayoutInflater, container:ViewGroup?,
+        savedInstanceState: Bundle?
+   ): View? {
+        return inflater.inflate(R.layout.fragment_example,container,attachedToRoot:false)
+        
+    }
+    
+  
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
