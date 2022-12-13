@@ -1,6 +1,7 @@
-# Android Project 6 - *Name of App Here*
+# Android Project 6 - *Bitfit2*
+**not sure why it went here sorry in advance..
 
-Submitted by: **Your Name Here**
+Submitted by: **Ifé-Michaela Spencer**
 
 **Name of your app** is a health metrics app that allows users to track water gallons
 
